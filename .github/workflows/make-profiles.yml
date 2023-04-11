@@ -135,7 +135,7 @@ jobs:
               fi
               
               #run special commands
-              if [ -e "makeisoprofilesdir/$i/special-commands.sh" ]; then
+              if [ -e "$makeisoprofilesdir/$i/special-commands.sh" ]; then
                   bash -x $makeisoprofilesdir/$i/special-commands.sh
               fi
           done
