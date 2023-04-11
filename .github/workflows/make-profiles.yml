@@ -109,6 +109,10 @@ jobs:
           ## make FLAVOURS ##
           # for i in $(ls -d */ | cut -f1 -d'/' | sed '/base/d'); do
           for i in $(ls $makeisoprofilesdir | sed '/base/d'); do
+              echo ""
+              echo "MAKE $i"
+              echo ""
+              
               rsync -Cravzp --delete shared/ biglinux/$i
               
               # # Remove Desktop
