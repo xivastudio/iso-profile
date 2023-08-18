@@ -37,7 +37,8 @@ mesa-vdpau
 >nonfree_multilib lib32-nvidia-470xx-utils
 >nonfree_multilib lib32-nvidia-390xx-utils
 >nonfree_multilib lib32-nvidia-utils
-#opencl-mesa
+opencl-clover-mesa
+opencl-rusticl-mesa
 open-vm-tools
 primus
 qemu-guest-agent
@@ -46,6 +47,9 @@ nvidia-prime
 gtkmm3
 spice-vdagent
 virtualbox-guest-utils
+vulkan-mesa-layers
+vulkan-swrast
+vulkan-virtio
 vulkan-radeon
 >multilib lib32-vulkan-radeon
 vulkan-intel
